@@ -1,11 +1,11 @@
 # mysql-c-plus-plus-3.2.3-new
 mysql-c-plus-plus-3.2.3-new
-lib\query.h ÎÄ¼şĞÂ¼Ó
+lib\query.h æ–‡ä»¶æ–°åŠ 
 	std::string getSQL(){return sbuffer_.str();}
-	void open(){sqlinit=sbuffer_.str();}//´ò¿ª
-	void close();//¹Ø±Õ
-	std::string sqlinit;//´òÓ¡sql
-lib\query.cpp ÎÄ¼şĞÂ¼Ó
+	void open(){sqlinit=sbuffer_.str();}//æ‰“å¼€
+	void close();//å…³é—­
+	std::string sqlinit;//æ‰“å°sql
+lib\query.cpp æ–‡ä»¶æ–°åŠ 
 void
 Query::close()
 {
@@ -16,3 +16,4 @@ Query::close()
 	parse_elems_.clear();
 	template_defaults.clear();
 }
+â€¦â€¦â€¦â€¦â€¦â€¦
